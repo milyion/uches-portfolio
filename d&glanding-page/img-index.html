@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Gallery</title>
+    <link rel="stylesheet" href="img-script.js">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+  
+}
+h1{}
+
+#gallery {
+    padding: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.gallery-image {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    height: 10px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>D&G Hotel Gallery</h1>
+    </header>
+
+    <div id="gallery">
+        <h2>Our facilities</h2>
+        <h5>Reception</h5>
+
+        <div class="image-grid">
+            <img src="photos/download d&g.jpeg" height="200px" alt="Receptiom Entrance" class="gallery-image">
+            <img src="photos/reception.jpg" height="200px"  alt="Reception" class="gallery-image">
+            </div>
+
+        <h5>Rooms</h5>
+
+        <div class="image-grid">
+            <img src="photos/IMG_3341.JPG" height="200px"  alt="Deluxe Room" class="gallery-image">
+            <img src="photos/room.JPG" height="200px"  alt="Standard Room" class="gallery-image">
+            <img src="photos/room nice.jpeg" height="200" alt="Suite Room" class="gallery-image">
+
+        </div>
+
+        <h5>Bar</h5>
+
+        <div class="image-grid">
+            <img src="photos/flexing beside the pool.jpg" height="200px"  alt="Bar" class="gallery-image">
+            <img src="photos/ pool.jpg" height="200px"  alt="restaurant" class="gallery-image">
+            <img src="photos/snooker.jpg" height="200" alt="pool bar view" class="gallery-image">
+            <img src="photos/vip bar.jpg" height="200" alt="vip bar" class="gallery-image">
+        
+        </div>
+
+        <h5>Restaurant</h5>
+
+        <div class="image-grid">
+            <img src="photos/d and g restaurant copy.jpg" height="200px"  alt="restaurant" class="gallery-image">
+            </div>
+
+            <h5>Car park</h5>
+
+            <div class="image-grid">
+                <img src="photos/download.jpeg" height="200px"  alt="car park" class="gallery-image">
+                <img src="photos/car night view.jpg " height="200px"  alt="car park night view" class="gallery-image">
+                
+            </div>
+
+    <footer>
+        <p>&copy; D&G Hotel. All rights reserved.</p>
+    </footer>
+
+    <script src="img-script.js"></script>
+</body>
+</html>

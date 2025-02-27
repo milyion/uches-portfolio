@@ -1,0 +1,186 @@
+body{
+    background-color: black;
+    background-blend-mode: difference;
+}
+
+header{
+  
+    background-color: rgb(39, 73, 103);
+  
+   
+}
+
+
+
+h1{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: serif;
+    
+}
+span{
+    
+    color: aqua;
+    font-weight:bold;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, serif;
+}
+
+.text-end > .follow{
+    color: aliceblue;
+
+}
+.bdd{
+   border: 0px; 
+   
+} 
+.sub{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+
+
+
+.head{
+    color: white;
+}
+.color{
+    color : white;
+}
+h2{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.yyo {
+    
+    display: flex;
+
+}
+
+
+.py{
+    display: block;
+}
+.follow{
+    
+    border-radius: 40%;
+    border: solid 0px;
+    margin: 0px;
+
+}
+
+
+.ppp{
+    display: flex;
+    background-color: white;
+   align-items: center;
+justify-content: first baseline;
+   
+}
+.ppp .follow{
+    height: 40px;
+}
+.my-2{
+  
+    border-radius: 100px;
+    padding: 0px;
+    margin: 0px;
+    
+   
+   
+}
+.btn-group, .drop {
+    background-color: white;
+    padding: 1px;
+}
+.dropdown-item{
+    color: white;
+}
+
+
+
+.h7{
+    color: aqua;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    
+}
+h4{
+    color: aqua;
+}
+H5{
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.skil{
+    padding-right:0px;
+    margin-right: 30px;
+}
+
+   
+
+
+ 
+svg{
+    color: black;
+    height: 30px;
+
+}
+.container-xxl  #backkk{
+    
+   background-color: rgb(48, 102, 161) ;
+   
+}
+
+
+
+.dg{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+}
+h6{
+    color: white;
+    font-weight: bolder;
+    font-style: solid;
+    font-family: Arial, sans-serif;
+}
+
+.carousel-item #graph{
+    height: 300px;
+
+}
+.offcanvas-header h2,  #abt{
+    
+    color: black;
+    background-color: aqua;
+    
+    
+}
+.enjoy, #abbt{
+    
+    background-color: aqua;
+}
+h2, #abbt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+
+ 
+ 

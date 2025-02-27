@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landing-script.js">
+    <link rel="stylesheet" href="img-script.js">
+
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+   background-image: url(photos/3dd.gif);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    background-position: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#nav-toggle {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.room {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.book-btn {
+    background-color: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.book-btn:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+#contact {
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(photos/3dd.gif );
+    color: #ffffff;
+    padding-right: 20px;
+    width: 100%;
+}
+#foot{
+   font-size: 12px;
+   text-align: left;
+    color: rgb(29, 26, 26);
+    font-family: serif;
+    color: #ffffff;
+    
+    
+}
+
+
+
+/* Responsive Styles */
+
+@media (max-width: 412px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    #nav-toggle {
+        display: block;
+    }
+    #nav-links {
+        display: none;
+    }
+}
+
+#nav-links.show {
+    display: block;
+    position: relative;
+}
+
+.gg{
+    
+    background: #35424a;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0;
+    text-decoration: none;
+    font-weight: bolder;
+   
+    width: 100%;
+    background-image: url(photos/flexing\ beside\ the\ pool.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.gg:hover{
+    background-color: #04aa6d;
+    color: #04aa6d;
+}
+
+
+
+
+.logo{
+    float: left;
+    border-radius: 5px;
+    transform: rotate(90deg);
+          
+        }
+        @keyframes logo {
+            from{transform: rotateY(0deg)  }
+            to {transform: rotateY(360deg)}
+        }
+        .logo{
+            animation: logo 3s ease-in-out infinite;
+            
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+  background-image: url(photos/flame.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+h1{
+    text-transform: capitalize;
+  background-image: url(photos/flame.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+h1{color: white;}
+.cont{
+    color: white;
+}
+iframe{
+    height: 10rem;
+    border-radius: 10px;
+
+}
+    </style>
+     
+
+    
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D&G Hotel</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="photos/d&g logo2.jpeg" height="100" alt="logo" class="logo">
+            <h1>Welcome to D&G Hotel & suites</h1>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="nav-toggle">Menu</button>
+            </nav>
+        </header>
+    
+        <section id="about">
+            <h2>About Us</h2>
+            <p>D&G Hotel & Suites offers a luxurious stay with world-class services.
+        with restaurant and lounge facilities 
+        multipurpose services, meeting room and dinning
+         facilities. Our guest room contains lucrative furnitures, 
+         artworks and many more
+            </p>
+        </section>
+    
+        <section id="rooms">
+            <h2>Our Rooms</h2>
+            <div class="room">
+                <h3>Deluxe Room</h3>
+                <p>Spacious room with a king-sized bed and ocean view.</p>
+                <a href="d&gbooking.html"><button class="book-btn">Book Now</button></a>
+
+            </div>
+            <div class="room">
+                <h3>Standard Room</h3>
+                <p>Cozy room with all the essential amenities.</p>
+                <a href="d&gbooking.html"><button class="book-btn">Book Now</button></a>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <a href="img-index.html"> <button class="gg">D&G Hotel Gallery</button></a>   
+
+            </div>
+                </section>
+
+
+
+
+            </header>
+            
+        </section>
+    
+        <footer id="contact">
+            <h2 class="cont">Contact Us</h2>
+            
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1011.5156126112215!2d3.2856474055016833!3d6.672067912554988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b97795a8da5db%3A0xee1469a8985e74a1!2sD%26G%20Hotels%20and%20Events%20Center!5e0!3m2!1sen!2sng!4v1736610019369!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <hr>
+            <p>Email: D&GHotel@Gmail.com</p>
+            
+            <P>
+              <a href="https://www.instagram.com/dghotelsuites?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <img src="photos/instagram logo.jpeg" height="20" alt="instagram"></a> 
+                <img src="photos/facebook logo.png" height="20" alt="facebook">
+                <img src="photos/whatsapp logo.png" height="20" alt="whatsapp">
+            </P>
+            <p>Phone: +(234) 366-883-22 , +(234) 704-946-99 </p>
+            <p id="foot">&copy;2024 D&G Hotel & Suites. All rights reserved.</p>
+        </footer>
+    
+        <script src="landing-script.js"></script>
+        <script src="img-script.js"></script>
+
+    </body>
+    </html>
+
+</body>
+</html>
+
+
